@@ -1,0 +1,69 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="TestForm" Height="950" Width="750" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Name="grd1" IsEnabled="True" Width="750" Height="950" Background="#FF9C9C9F">
+        <Label Name="lbl" Content=" ............... Üniversitesi............... Fakültesi................ Bölümü" HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="0,0" Height="39" FontFamily="Times New Roman" FontStyle="Oblique" FontSize="23" Foreground="#FFA20B0B"/>
+        <Label Name="lbl21" Content="202. - 202.......... Sınav Kağıdı" HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="10,25" Height="39" FontFamily="Times New Roman" FontStyle="Oblique" FontSize="23" Foreground="#FFA20B0B"/>
+        <Label Name="lbl42" Content="Aşağıdaki soruları cevaplayınız. Tüm soruları cevapladıktan sonra göndere basmalısınız." HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10,65" Height="35" Width="750" FontSize="18"></Label>
+        <Label Name="lbl43" Content="Aksi takdirde sınavınız kabul edilmeyecektir. Süreniz ... dakikadır. Başarılar dilerim." HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10,85" Height="35" Width="700" FontSize="18"></Label>
+        <TextBox Name="txtad" HorizontalAlignment="Left" Margin="100,135" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBox Name="txtsoyad" HorizontalAlignment="Left" Margin="100,160" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBox Name="txtnumara" HorizontalAlignment="Left" Margin="100,185" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <Label Name="lbl20" Content="Numara:" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="20,180" Height="30" Width="73" FontSize="17" Foreground="#FFA20B0B" ></Label>
+        <Label Name="lbl1" Content="Soyad:" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="20,155" Height="30" Width="60" FontSize="17" Foreground="#FFA20B0B"></Label>
+        <Label Name="lbl2" Content="Ad:" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="20,130" Height="30" Width="50" FontSize="17" Foreground="#FFA20B0B"></Label>
+        <Label Name="lbl6" Content="Soru-1: Çoktan seçmeli soru ?" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="35,240" Height="50" Width="500" FontSize="17"></Label>
+        <Label Name="lbl22" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="65,273" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl23" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="65,293" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl24" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="65,313" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl25" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="65,333" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl26" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="65,353" Height="30" Width="200" FontSize="16"></Label>
+        <RadioButton Name="rdb1" Content="A)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,280" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb2" Content="B)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,300" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb3" Content="C)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,320" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb4" Content="D)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,340" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb5" Content="E)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,360" FontSize="16" ></RadioButton>
+        <Label Name="lbl7" Content="Soru-2: Çoktan seçmeli soru ?" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="35,405" Height="50" Width="500" FontSize="17"></Label>
+        <Label Name="lbl27" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="65,438" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl28" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="65,458" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl29" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,444" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl30" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,425" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl31" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,405" Height="30" Width="200" FontSize="16"></Label>
+        <RadioButton Name="rdb6" Content="A)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,445" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb7" Content="B)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,465" FontSize="16"></RadioButton>
+        <RadioButton Name="rdb8" Content="C)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,447" FontSize="16"></RadioButton>
+        <RadioButton Name="rdb9" Content="D)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,427" FontSize="16"></RadioButton>
+        <RadioButton Name="rdb10" Content="E)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,407" FontSize="16"></RadioButton> 
+        <Label Name="lbl8" Content="Soru-3: Çoktan seçmeli soru ?" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="35,335" Height="50" Width="500" FontSize="17" ></Label>
+        <Label Name="lbl32" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,320" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl33" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,300" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl34" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,280" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl35" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,260" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl36" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,240" Height="30" Width="200" FontSize="16"></Label>
+        <RadioButton Name="rdb16" Content="A)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,325" FontSize="16"></RadioButton>
+        <RadioButton Name="rdb17" Content="B)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,305" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb18" Content="C)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,285" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb19" Content="D)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,265" FontSize="16"></RadioButton>
+        <RadioButton Name="rdb20" Content="E)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,245" FontSize="16"></RadioButton>
+            <Label Name="lbl9" Content="Soru-4: Çoktan seçmeli soru ?" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="35,170" Height="50" Width="500" FontSize="17"></Label>
+        <Label Name="lbl37" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,155" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl38" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,135" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl39" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,115" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl40" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,95" Height="30" Width="200" FontSize="16"></Label>
+        <Label Name="lbl41" Content="cevap şıkkı" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="65,75" Height="30" Width="200" FontSize="16"></Label>
+        <RadioButton Name="rdb11" Content="A)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,160" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb12" Content="B)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,140" FontSize="16" ></RadioButton>
+        <RadioButton Name="rdb13" Content="C)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,120" FontSize="16"></RadioButton>
+        <RadioButton Name="rdb14" Content="D)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,100" FontSize="16"></RadioButton>
+        <RadioButton Name="rdb15" Content="E)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="25,80" FontSize="16"></RadioButton>
+        <StackPanel Margin="4,50" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <Button Content="ileri" HorizontalAlignment="Right" Margin="30" VerticalAlignment="Bottom" Width="100" Click="btn1click"/>
+        </StackPanel>
+        <Frame Name="main" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
